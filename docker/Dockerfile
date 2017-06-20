@@ -13,6 +13,7 @@ RUN (apt-get update && \
      apt-get update && \
      DEBIAN_FRONTEND=noninteractive apt-get install -y \
          x2goserver x2goserver-xsession ttf-dejavu fonts-ipafont-gothic \
+         fonts-arphic-uming fonts-arphic-bsmi00lp fonts-arphic-gbsn00lp \
          openbox obconf obmenu conky nitrogen \
          sudo rxvt-unicode-256color \
          firefox emacs)
